@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-color: #1c233b;
+    color: #FABC3F;
+    padding: 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    height: 100px;
+    padding: 0 20px;
+}
+
+.logo {
+    background: url(../img/logo.png) no-repeat center; 
+    background-size: contain; 
+    width: 200px;
+    height: 100%;
+    margin-right: 20px; 
+}
+
+h1 {
+    margin: 0; 
+    font-size: 30px;
+    text-align: left;
+}
+  
+h2 {
+    margin: 0px; 
+    font-size: 25px;
+    text-align: left;
+    color: #d16539;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+}  
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+  
+nav ul li a {
+    color:  #d16539;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+nav ul li a:hover { 
+    color: #7AB8BF; 
+}
+.agdasima-bold {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.agdasima-regular {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+.gallery-vertical {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
+    max-width: 100%;
+    padding: 20px 10px; 
+    box-sizing: border-box; 
+}
+
+.gallery-item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color:  #1c233b;
+    padding: 10px 10px;
+    flex: 0 1 250px;
+    max-width: 220px; 
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.gallery-item a {
+    color:  #d16539;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gallery-item a:hover {
+    color: #8499a1; 
+}
+
+.caj-tx {
+    display: flex; 
+    align-items: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.imagenes {
+    width: 50%; 
+    height: auto; 
+    margin-right: 20px; 
+    display: block; 
+    margin-top: -50px; 
+}
+.texto {
+    flex: 1; 
+    color: #d0d0d0; 
+    background-color: #1c233b;
+    padding: 10px;
+    text-align: justify;
+    margin-top: -80px; 
+}
+
+.sec {
+    background-image: url("../img/fondo0.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 5%; 
+}
+
+.sec1 {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+.sec2 {
+    background-image: url("../img/fondo1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    padding: 5%;
+}
+
+.sec3 {
+    background-image: url("../img/fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    padding: 5%;
+}
+
+.sec4 {
+    background-image: url("../img/fondo3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    padding: 5%;
+}
+
+.sec5 {
+    background-image: url("../img/fondo4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    padding: 5%;
+    
+}
+
+.sec6 {
+    background-image: url("../img/fondo5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    padding: 5%;
+}
+
+.sec7 {
+    background-image: url("../img/fondo6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    padding: 5%;
+}
+
+.sec8 {
+    background-image: url("../img/fondo7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    padding: 2%;
+}
+
+footer {
+    background-color: #1c233b;
+    color: #d0d0d0;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.contactos-container {
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contacto-item {
+    text-align: center; 
+    flex: 1; 
+    margin: 0 10px; 
+}
+
+.contacto-item .icon {
+    width: 40px;
+    height: auto; 
+    margin-bottom: 10px; 
+}
